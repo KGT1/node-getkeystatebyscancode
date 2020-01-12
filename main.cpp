@@ -12,8 +12,6 @@ Napi::Number KeyStateByScanCode(const Napi::CallbackInfo &info){
 
 	UINT valAsVk = MapVirtualKeyA((UINT) val,(UINT)1);
 
-	//Napi::TypeError::New(env, "Das ist es: "+std::to_string(valAsVk)).ThrowAsJavaScriptException();
-
 	if(valAsVk==0)
 		Napi::TypeError::New(env, "The ScanCode has no VK KeyCode").ThrowAsJavaScriptException();
 	

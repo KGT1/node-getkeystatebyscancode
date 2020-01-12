@@ -1,0 +1,1 @@
+export function GetKeyStateByScancode(inputs: Number);
