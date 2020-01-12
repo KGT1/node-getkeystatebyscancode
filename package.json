@@ -1,0 +1,28 @@
+{
+    "name": "getkeystatebyscancode",
+    "version": "0.1.0",
+    "description": "This submodule allows you to get the KeyState of any Key on a Windows Machine with the Scan Code",
+    "main": "index.js",
+    "scripts": {
+        "build": "node-gyp rebuild",
+        "clean": "node-gyp clean",
+        "install": "node-gyp rebuild"
+    },
+    "gypfile": true,
+    "author": "Kilian Gamm <kilian.gamn@gmx.de>",
+    "license": "MIT",
+    "devDependencies": {
+        "node-gyp": "^3.8.0"
+    },
+    "dependencies": {
+        "node-addon-api": "^1.6.2"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+"
+    },
+    "bugs": {
+        "url": ""
+    },
+    "homepage": ""
+}
